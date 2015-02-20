@@ -1,0 +1,29 @@
+<!Doctype html>
+<html lang="TR">
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube Channel APP</title>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+
+    <div class="select-cat">
+        <button class="get-all" data-playlist-id="PLzza9l5VHqLR70MyoTe7jxsS0XftvsKBV">Foreign List</button>
+        <button class="get-all" data-playlist-id="PLzza9l5VHqLSUPqavAh1Gw7HXugNcZIXu">Turkish List</button>
+    </div>
+
+    <div id="playerWrapper">
+        <span class="black-bg"></span>
+        <iframe src="http://www.youtube.com/embed/" width="640" height="480"></iframe>
+        <h2 class="current-video-title">Başlık</h2>
+    </div>
+
+    <ul id="contentArea" data-cat="all"></ul>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="//www.youtube.com/iframe_api"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
